@@ -1,0 +1,22 @@
+{
+  "downloaded_on": "2026-11-19",
+  "source": "FRED, Federal Reserve Bank of St. Louis (fredgraph.csv endpoint)",
+  "series": [
+    "DGS1MO",
+    "DGS3MO",
+    "DGS6MO",
+    "DGS1",
+    "DGS2",
+    "DGS3",
+    "DGS5",
+    "DGS7",
+    "DGS10",
+    "DGS20",
+    "DGS30",
+    "SOFR",
+    "BAMLC0A4CBBB",
+    "BAMLC0A3CA"
+  ],
+  "first_date": "2016-01-04",
+  "last_complete_curve_date": "2026-11-17"
+}

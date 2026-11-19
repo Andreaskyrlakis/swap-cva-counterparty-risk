@@ -1,0 +1,166 @@
+{
+  "uncollateralised_cva": 262343.7883787536,
+  "csa_two_way": true,
+  "collateral": [
+    {
+      "threshold": null,
+      "mpr_business_days": 0,
+      "cva": 262343.7883787536,
+      "cva_vs_uncollateralised": 1.0,
+      "peak_EE": 4593527.093712555,
+      "peak_PFE": 19088587.67586378,
+      "EPE_life": 3260842.870096517
+    },
+    {
+      "threshold": 5000000.0,
+      "mpr_business_days": 0,
+      "cva": 162817.3183831761,
+      "cva_vs_uncollateralised": 0.6206257803524278,
+      "peak_EE": 2391661.2311468627,
+      "peak_PFE": 5000000.0,
+      "EPE_life": 2025694.9351510108
+    },
+    {
+      "threshold": 0.0,
+      "mpr_business_days": 0,
+      "cva": 0.0,
+      "cva_vs_uncollateralised": 0.0,
+      "peak_EE": 0.0,
+      "peak_PFE": 0.0,
+      "EPE_life": 0.0
+    },
+    {
+      "threshold": null,
+      "mpr_business_days": 10,
+      "cva": 262343.7883787536,
+      "cva_vs_uncollateralised": 1.0,
+      "peak_EE": 4593527.093712555,
+      "peak_PFE": 19088587.67586378,
+      "EPE_life": 3260842.870096517
+    },
+    {
+      "threshold": 10000000.0,
+      "mpr_business_days": 10,
+      "cva": 232363.19463393098,
+      "cva_vs_uncollateralised": 0.8857202073275746,
+      "peak_EE": 3754585.8173421836,
+      "peak_PFE": 11046515.684355717,
+      "EPE_life": 2884524.9891849696
+    },
+    {
+      "threshold": 5000000.0,
+      "mpr_business_days": 10,
+      "cva": 163185.10419804588,
+      "cva_vs_uncollateralised": 0.6220277034440421,
+      "peak_EE": 2413970.11275515,
+      "peak_PFE": 6591310.385366834,
+      "EPE_life": 2025699.262411784
+    },
+    {
+      "threshold": 2000000.0,
+      "mpr_business_days": 10,
+      "cva": 81680.31288703832,
+      "cva_vs_uncollateralised": 0.3113483776071496,
+      "peak_EE": 1123416.4006657607,
+      "peak_PFE": 4202771.867312957,
+      "EPE_life": 1011351.9484951965
+    },
+    {
+      "threshold": 1000000.0,
+      "mpr_business_days": 10,
+      "cva": 48914.44437297835,
+      "cva_vs_uncollateralised": 0.18645169636095635,
+      "peak_EE": 852579.988153832,
+      "peak_PFE": 3370705.357887978,
+      "EPE_life": 594489.5689784854
+    },
+    {
+      "threshold": 0.0,
+      "mpr_business_days": 10,
+      "cva": 26950.91889678175,
+      "cva_vs_uncollateralised": 0.10273130179042739,
+      "peak_EE": 709604.4680216949,
+      "peak_PFE": 2842732.7493121256,
+      "EPE_life": 292413.7317342925
+    },
+    {
+      "threshold": null,
+      "mpr_business_days": 20,
+      "cva": 262343.7883787536,
+      "cva_vs_uncollateralised": 1.0,
+      "peak_EE": 4593527.093712555,
+      "peak_PFE": 19088587.67586378,
+      "EPE_life": 3260842.870096517
+    },
+    {
+      "threshold": 10000000.0,
+      "mpr_business_days": 20,
+      "cva": 232482.4190907824,
+      "cva_vs_uncollateralised": 0.886174666179405,
+      "peak_EE": 3770904.8490158096,
+      "peak_PFE": 11511573.230794229,
+      "EPE_life": 2884524.9891849696
+    },
+    {
+      "threshold": 5000000.0,
+      "mpr_business_days": 20,
+      "cva": 163563.48699852507,
+      "cva_vs_uncollateralised": 0.6234700200424931,
+      "peak_EE": 2436143.31509388,
+      "peak_PFE": 7201359.051873034,
+      "EPE_life": 2025818.8391245566
+    },
+    {
+      "threshold": 2000000.0,
+      "mpr_business_days": 20,
+      "cva": 84392.53361451309,
+      "cva_vs_uncollateralised": 0.3216867993560917,
+      "peak_EE": 1241952.1213562083,
+      "peak_PFE": 4974196.0576850865,
+      "EPE_life": 1033389.5427520017
+    },
+    {
+      "threshold": 1000000.0,
+      "mpr_business_days": 20,
+      "cva": 55844.38817464721,
+      "cva_vs_uncollateralised": 0.21286720192521957,
+      "peak_EE": 1029877.0328324663,
+      "peak_PFE": 4233691.441063171,
+      "EPE_life": 663096.4976179814
+    },
+    {
+      "threshold": 0.0,
+      "mpr_business_days": 20,
+      "cva": 38663.75520256736,
+      "cva_vs_uncollateralised": 0.14737819958118215,
+      "peak_EE": 924728.1293941094,
+      "peak_PFE": 3872372.9010525174,
+      "EPE_life": 420017.04614491295
+    }
+  ],
+  "netting": {
+    "offsetting_receiver_5y": {
+      "cva_10y_alone": 262343.7883787536,
+      "cva_5y_alone": 49332.15758784487,
+      "sum_standalone": 311675.94596659846,
+      "netted": 203982.0660037988,
+      "netting_benefit": 0.34553157327816675,
+      "peak_PFE_sum": 25358210.55956345,
+      "peak_PFE_netted": 18486584.58538868
+    },
+    "same_direction_payer_5y": {
+      "cva_10y_alone": 262343.7883787536,
+      "cva_5y_alone": 58543.667504870005,
+      "sum_standalone": 320887.45588362357,
+      "netted": 320782.38230957254,
+      "netting_benefit": 0.00032744681078822335,
+      "peak_PFE_sum": 25696336.898471992,
+      "peak_PFE_netted": 25734502.494401664
+    }
+  },
+  "fixed_rates": {
+    "swap10": 0.051,
+    "receiver5": 0.048999999999999995,
+    "payer5": 0.048999999999999995
+  }
+}

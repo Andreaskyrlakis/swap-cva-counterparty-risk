@@ -1,0 +1,284 @@
+{
+  "trade": {
+    "notional": 100000000.0,
+    "maturity": 10.0,
+    "fixed_rate": 0.051,
+    "side": "payer (pay fixed, receive floating)",
+    "frequency": "semi-annual both legs"
+  },
+  "monte_carlo": {
+    "n_paths": 20000,
+    "antithetic": true,
+    "grid_steps": 260,
+    "step_years": 0.038461538461538464,
+    "seed": 2026
+  },
+  "value_at_t0_curve": 0.0,
+  "value_at_t0_mc": 0.0,
+  "max_abs_deflator_error": 0.00025816772604358995,
+  "exposure": {
+    "peak_EE": 4593527.093712555,
+    "peak_EE_time": 4.461538461538462,
+    "peak_PFE": 19088587.67586378,
+    "peak_PFE_time": 4.461538461538462,
+    "EPE_life": 3260842.870096517,
+    "EPE_1y": 1800543.010959045,
+    "effective_EPE_1y": 1800543.010959045,
+    "EE_at": {
+      "1": 2749971.3075576914,
+      "2": 3592305.990979654,
+      "3": 4082473.3323582336,
+      "5": 4242920.227187345,
+      "7": 3332594.558572311,
+      "9": 1417619.1617014296
+    },
+    "PFE_at": {
+      "1": 12090396.758348921,
+      "2": 15401566.802744664,
+      "3": 17316954.684837855,
+      "5": 17186967.239556607,
+      "7": 13272372.023370609,
+      "9": 5604623.067924359
+    }
+  },
+  "cva": {
+    "cva_unilateral": 262343.7883787536,
+    "cva_se": 935.0556197977808,
+    "cva_bp_notional": 26.234378837875358,
+    "cva_running_bp": 3.362829315794963,
+    "dva_unilateral": 137427.70578631878,
+    "cva_bilateral": 248747.15656575913,
+    "dva_bilateral": 127179.52674757208,
+    "bcva": 121567.62981818705,
+    "hazard_counterparty": 0.01916666666666667,
+    "hazard_bank": 0.012666666666666666,
+    "lgd": 0.6,
+    "cva_semiannual_closed_form": 248378.13150705388,
+    "cva_semiannual_mc": 248650.97966111932
+  },
+  "swaption_check": [
+    {
+      "expiry": 0.5,
+      "mc_ee_discounted": 1957827.6771679947,
+      "mc_se": 12654.905191325564,
+      "jamshidian": 1987625.997698831,
+      "z_score": -2.3546854030373776,
+      "mc_mean_value_discounted": 341032.3811670575,
+      "forward_swap_value": 337556.87099458755
+    },
+    {
+      "expiry": 1.0,
+      "mc_ee_discounted": 2614078.2543972456,
+      "mc_se": 16088.691863699452,
+      "jamshidian": 2647340.303660488,
+      "z_score": -2.067417882388004,
+      "mc_mean_value_discounted": 490726.79623699887,
+      "forward_swap_value": 483486.24463044334
+    },
+    {
+      "expiry": 1.5,
+      "mc_ee_discounted": 3003543.6868329383,
+      "mc_se": 17891.18990669163,
+      "jamshidian": 3032368.148455459,
+      "z_score": -1.6110980752454,
+      "mc_mean_value_discounted": 582428.7978216275,
+      "forward_swap_value": 573316.0681038962
+    },
+    {
+      "expiry": 2.0,
+      "mc_ee_discounted": 3219653.721233904,
+      "mc_se": 18878.684607006886,
+      "jamshidian": 3223976.734409551,
+      "z_score": -0.2289891094447724,
+      "mc_mean_value_discounted": 571480.9180976948,
+      "forward_swap_value": 566393.6045682938
+    },
+    {
+      "expiry": 2.5,
+      "mc_ee_discounted": 3377094.353329823,
+      "mc_se": 19412.956889152898,
+      "jamshidian": 3370080.33051853,
+      "z_score": 0.3613062580493236,
+      "mc_mean_value_discounted": 649864.5095876908,
+      "forward_swap_value": 652899.1611467694
+    },
+    {
+      "expiry": 3.0,
+      "mc_ee_discounted": 3443636.745922397,
+      "mc_se": 19290.93079561459,
+      "jamshidian": 3432076.5387498224,
+      "z_score": 0.5992560594951934,
+      "mc_mean_value_discounted": 711494.2032197397,
+      "forward_swap_value": 718866.9271422866
+    },
+    {
+      "expiry": 3.5,
+      "mc_ee_discounted": 3457792.7225936996,
+      "mc_se": 18729.5957530497,
+      "jamshidian": 3434273.716908142,
+      "z_score": 1.2557134705765371,
+      "mc_mean_value_discounted": 767656.6270007144,
+      "forward_swap_value": 780936.599245105
+    },
+    {
+      "expiry": 4.0,
+      "mc_ee_discounted": 3389440.4126956593,
+      "mc_se": 17592.271988538163,
+      "jamshidian": 3380920.6598046967,
+      "z_score": 0.4842895162440354,
+      "mc_mean_value_discounted": 821913.0575629864,
+      "forward_swap_value": 827963.2492735472
+    },
+    {
+      "expiry": 4.5,
+      "mc_ee_discounted": 3282797.9182588477,
+      "mc_se": 16592.010306286887,
+      "jamshidian": 3279965.4462832604,
+      "z_score": 0.1707130072426519,
+      "mc_mean_value_discounted": 853835.8721999086,
+      "forward_swap_value": 860449.1749616333
+    },
+    {
+      "expiry": 5.0,
+      "mc_ee_discounted": 3149061.4658836,
+      "mc_se": 15357.790500570572,
+      "jamshidian": 3137589.785055629,
+      "z_score": 0.746961669228714,
+      "mc_mean_value_discounted": 869596.4123917558,
+      "forward_swap_value": 878885.150974723
+    },
+    {
+      "expiry": 5.5,
+      "mc_ee_discounted": 2953883.1171442093,
+      "mc_se": 14050.144412157631,
+      "jamshidian": 2938250.276722717,
+      "z_score": 1.1126462449713392,
+      "mc_mean_value_discounted": 836427.0566789268,
+      "forward_swap_value": 847891.833732331
+    },
+    {
+      "expiry": 6.0,
+      "mc_ee_discounted": 2721749.5620706435,
+      "mc_se": 12708.65983216989,
+      "jamshidian": 2703228.463564958,
+      "z_score": 1.457360473116327,
+      "mc_mean_value_discounted": 784396.7634000053,
+      "forward_swap_value": 798177.6449319328
+    },
+    {
+      "expiry": 6.5,
+      "mc_ee_discounted": 2449727.904356882,
+      "mc_se": 11163.698342392994,
+      "jamshidian": 2436125.2315519466,
+      "z_score": 1.2184736982081128,
+      "mc_mean_value_discounted": 719800.124066495,
+      "forward_swap_value": 730421.3088289297
+    },
+    {
+      "expiry": 7.0,
+      "mc_ee_discounted": 2151754.4829046316,
+      "mc_se": 9660.550160092585,
+      "jamshidian": 2140061.7629342587,
+      "z_score": 1.2103575652114733,
+      "mc_mean_value_discounted": 635584.1544191559,
+      "forward_swap_value": 645287.5766323266
+    },
+    {
+      "expiry": 7.5,
+      "mc_ee_discounted": 1840286.0171615425,
+      "mc_se": 8082.095505774203,
+      "jamshidian": 1832522.2105661968,
+      "z_score": 0.9606180216255701,
+      "mc_mean_value_discounted": 561063.7966116696,
+      "forward_swap_value": 569316.3502559509
+    },
+    {
+      "expiry": 8.0,
+      "mc_ee_discounted": 1513828.6753828228,
+      "mc_se": 6505.168751132023,
+      "jamshidian": 1502742.724495956,
+      "z_score": 1.704175757921362,
+      "mc_mean_value_discounted": 470091.4269850876,
+      "forward_swap_value": 480054.38011780725
+    },
+    {
+      "expiry": 8.5,
+      "mc_ee_discounted": 1160415.2468412048,
+      "mc_se": 4871.245657839991,
+      "jamshidian": 1152807.8294677595,
+      "z_score": 1.5616985690716805,
+      "mc_mean_value_discounted": 370533.5233684705,
+      "forward_swap_value": 378005.593980197
+    },
+    {
+      "expiry": 9.0,
+      "mc_ee_discounted": 789714.6663704602,
+      "mc_se": 3247.4267701448994,
+      "jamshidian": 784594.788056146,
+      "z_score": 1.5765954636401946,
+      "mc_mean_value_discounted": 257950.31583771209,
+      "forward_swap_value": 263662.01920070173
+    },
+    {
+      "expiry": 9.5,
+      "mc_ee_discounted": 401533.90994164627,
+      "mc_se": 1625.1272028852466,
+      "jamshidian": 399806.9528292186,
+      "z_score": 1.0626596548021898,
+      "mc_mean_value_discounted": 134613.01861044692,
+      "forward_swap_value": 137503.93056459996
+    }
+  ],
+  "swaption_check_max_abs_z": 2.3546854030373776,
+  "swaption_check_max_rel_error": 0.014991915262396072,
+  "convergence": [
+    {
+      "n_paths": 500,
+      "cva": 270671.30119233346,
+      "se": 5793.777382658556
+    },
+    {
+      "n_paths": 1000,
+      "cva": 255605.73223312577,
+      "se": 4028.324551921809
+    },
+    {
+      "n_paths": 2000,
+      "cva": 260127.36893860975,
+      "se": 2919.6789938056722
+    },
+    {
+      "n_paths": 5000,
+      "cva": 260684.319879327,
+      "se": 1809.694007894307
+    },
+    {
+      "n_paths": 10000,
+      "cva": 264288.0933138073,
+      "se": 1323.1036383827022
+    },
+    {
+      "n_paths": 20000,
+      "cva": 260816.67946870503,
+      "se": 915.8187860211391
+    },
+    {
+      "n_paths": 50000,
+      "cva": 261935.94930404588,
+      "se": 586.4677838052344
+    },
+    {
+      "n_paths": 100000,
+      "cva": 262458.4734441534,
+      "se": 412.23552528871517
+    }
+  ],
+  "sensitivities": {
+    "sigma_x0.5": 148404.19970712558,
+    "sigma_x1.5": 376989.28711569856,
+    "spread_x0.5": 136641.38601234037,
+    "spread_x2": 484256.731903205,
+    "receiver_swap": 202510.3252530874,
+    "receiver_swap_peak_EE": 3346470.545303927
+  }
+}

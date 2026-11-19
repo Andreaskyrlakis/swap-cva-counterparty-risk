@@ -1,0 +1,200 @@
+{
+  "model": "lambda = phi(t) exp(Y), dY = -kappa Y dt + eta dW_Y, corr(dW_Y, dW_r) = rho",
+  "kappa": 0.1,
+  "eta_base": 0.5,
+  "independent_cva": {
+    "payer": 262343.7883787536,
+    "receiver": 202510.3252530874
+  },
+  "rows": [
+    {
+      "eta": 0.25,
+      "rho": -0.9,
+      "cva_payer": 175898.88316160088,
+      "cva_receiver": 310525.4813071219,
+      "payer_vs_independent": 0.670489986626443,
+      "receiver_vs_independent": 1.53338098153288,
+      "max_survival_calibration_gap": 6.661338147750939e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": -0.6,
+      "cva_payer": 202846.08935028224,
+      "cva_receiver": 271010.9982188327,
+      "payer_vs_independent": 0.773207136345181,
+      "receiver_vs_independent": 1.3382576808374416,
+      "max_survival_calibration_gap": 6.5503158452884236e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": -0.3,
+      "cva_payer": 232032.96002538284,
+      "cva_receiver": 235016.2601024655,
+      "payer_vs_independent": 0.8844614216304215,
+      "receiver_vs_independent": 1.16051495057723,
+      "max_survival_calibration_gap": 6.5503158452884236e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": 0.0,
+      "cva_payer": 263418.2545586016,
+      "cva_receiver": 202431.7541511696,
+      "payer_vs_independent": 1.0040956417778673,
+      "receiver_vs_independent": 0.9996120143413941,
+      "max_survival_calibration_gap": 6.5503158452884236e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": 0.3,
+      "cva_payer": 296885.4177099572,
+      "cva_receiver": 173166.5828466327,
+      "payer_vs_independent": 1.1316655124356703,
+      "receiver_vs_independent": 0.8551000183828537,
+      "max_survival_calibration_gap": 6.5503158452884236e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": 0.6,
+      "cva_payer": 332255.2496891652,
+      "cva_receiver": 147122.553812098,
+      "payer_vs_independent": 1.2664879612452586,
+      "receiver_vs_independent": 0.7264940867989398,
+      "max_survival_calibration_gap": 6.661338147750939e-15
+    },
+    {
+      "eta": 0.25,
+      "rho": 0.9,
+      "cva_payer": 369168.88183406385,
+      "cva_receiver": 124199.01344886483,
+      "payer_vs_independent": 1.407195055447944,
+      "receiver_vs_independent": 0.6132971901242421,
+      "max_survival_calibration_gap": 6.661338147750939e-15
+    },
+    {
+      "eta": 0.5,
+      "rho": -0.9,
+      "cva_payer": 112081.42516594347,
+      "cva_receiver": 440307.82062790904,
+      "payer_vs_independent": 0.427231099537711,
+      "receiver_vs_independent": 2.1742487454782076,
+      "max_survival_calibration_gap": 2.3203661214665772e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": -0.6,
+      "cva_payer": 154000.4719094552,
+      "cva_receiver": 348227.63142834726,
+      "payer_vs_independent": 0.5870177939457065,
+      "receiver_vs_independent": 1.7195549461152146,
+      "max_survival_calibration_gap": 2.353672812205332e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": -0.3,
+      "cva_payer": 204880.5663692316,
+      "cva_receiver": 269253.0716352513,
+      "payer_vs_independent": 0.7809621399285406,
+      "receiver_vs_independent": 1.3295770045243476,
+      "max_survival_calibration_gap": 2.3314683517128287e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": 0.0,
+      "cva_payer": 264360.8571835667,
+      "cva_receiver": 202815.08889385496,
+      "payer_vs_independent": 1.0076886470889146,
+      "receiver_vs_independent": 1.0015049288987448,
+      "max_survival_calibration_gap": 2.3092638912203256e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": 0.3,
+      "cva_payer": 331784.4614227579,
+      "cva_receiver": 148435.65807974804,
+      "payer_vs_independent": 1.2646934142147506,
+      "receiver_vs_independent": 0.7329782216992664,
+      "max_survival_calibration_gap": 2.3092638912203256e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": 0.6,
+      "cva_payer": 406189.00005166384,
+      "cva_receiver": 105508.30783681887,
+      "payer_vs_independent": 1.54830805242942,
+      "receiver_vs_independent": 0.521002115348735,
+      "max_survival_calibration_gap": 2.4646951146678475e-14
+    },
+    {
+      "eta": 0.5,
+      "rho": 0.9,
+      "cva_payer": 485809.49789316993,
+      "cva_receiver": 73126.57534337458,
+      "payer_vs_independent": 1.8518048431617227,
+      "receiver_vs_independent": 0.3611004784668861,
+      "max_survival_calibration_gap": 2.298161660974074e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": -0.9,
+      "cva_payer": 42799.574417810414,
+      "cva_receiver": 678105.0098469054,
+      "payer_vs_independent": 0.16314308290775836,
+      "receiver_vs_independent": 3.3484959791528817,
+      "max_survival_calibration_gap": 4.007905118896815e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": -0.6,
+      "cva_payer": 90466.55123981617,
+      "cva_receiver": 483473.1838552833,
+      "payer_vs_independent": 0.34483969221793387,
+      "receiver_vs_independent": 2.3874001646635175,
+      "max_survival_calibration_gap": 2.9976021664879227e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": -0.3,
+      "cva_payer": 165457.40951015818,
+      "cva_receiver": 326399.6622030143,
+      "payer_vs_independent": 0.630689259054544,
+      "receiver_vs_independent": 1.6117680014344757,
+      "max_survival_calibration_gap": 3.164135620181696e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": 0.0,
+      "cva_payer": 265675.61853677686,
+      "cva_receiver": 203963.06348761296,
+      "payer_vs_independent": 1.012700244128567,
+      "receiver_vs_independent": 1.0071736501964037,
+      "max_survival_calibration_gap": 2.8754776337791554e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": 0.3,
+      "cva_payer": 388933.93311065534,
+      "cva_receiver": 114638.51055634246,
+      "payer_vs_independent": 1.4825353232649816,
+      "receiver_vs_independent": 0.566087237344925,
+      "max_survival_calibration_gap": 2.9753977059954195e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": 0.6,
+      "cva_payer": 532116.4861490037,
+      "cva_receiver": 56313.652288891266,
+      "payer_vs_independent": 2.0283174586957293,
+      "receiver_vs_independent": 0.2780779311796238,
+      "max_survival_calibration_gap": 2.8754776337791554e-14
+    },
+    {
+      "eta": 1.0,
+      "rho": 0.9,
+      "cva_payer": 687681.9583506372,
+      "cva_receiver": 25054.823750186584,
+      "payer_vs_independent": 2.6213007085108115,
+      "receiver_vs_independent": 0.12372121628304288,
+      "max_survival_calibration_gap": 2.7977620220553945e-14
+    }
+  ]
+}
